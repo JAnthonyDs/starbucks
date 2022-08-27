@@ -16,9 +16,11 @@ export const Container = styled.div`
         cursor: pointer;
 
         > li {
+            transition: 0.6s;
             font-size: 20px;
             &:hover, &:focus {
-                text-decoration: underline;
+                transform: rotate(360deg);
+                /* text-decoration: underline; */
             }
         }
 
